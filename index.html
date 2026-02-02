@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGV</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font">
+    <nav
+      class="navbar navbar-expand-lg bg-white shadow-lg fixed-top navbar-dark"
+    >
+      <div class="container-fluid mx-5 my-2">
+        <a class="navbar-brand" href="#">CGV <small>Cinemas</small></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                role="button"
+                aria-current="page"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Movies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#movies">Movies</a></li>
+                <li><a class="dropdown-item" href="#genre">Genre</a></li>
+              </ul>
+            </li>
+            <a class="nav-link" href="error.html">Cinemas</a>
+            <a class="nav-link" href="error.html">Promotion</a>
+            <a class="nav-link" href="error.html">News</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner main -->
+    <div class="banner container-fluid d-flex align-items-center">
+      <div class="container">
+        <div class="container">
+          <h1 class="text-light display-2 fb mb-3">Movie Selection</h1>
+          <h6 class="text-light mb-4">
+            Choose your favorite movie and enjoy the show!
+          </h6>
+        </div>
+        <a href="#movies" class="btn btn-red btn-reddark mx-3">View Movies</a>
+      </div>
+    </div>
+
+    <section id="movies" class="s-1 scroll-mt mb-5">
+      <div class="container-fluid py-5">
+        <div class="container text-light">
+          <div class="text py-3">
+            <h2 class="text-center display-6">Sedang Tayang</h2>
+            <p class="text-center mt-3">
+              Berikut ini adalah film-film yang sedang tayang di bioskop kami.
+            </p>
+          </div>
+          <div class="row mt-5 justify-content-center">
+            <div class="col-md-3 hovered-card">
+              <div class="card">
+                <img
+                  src="movies/spiderman.jpg"
+                  alt="Spiderman"
+                  class="card-img-top square-img"
+                />
+                <div class="card-body">
+                  <div class="card-title">Spiderman No Way Home</div>
+                  <a href="error.html" class="btn btn-primary">Watch</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 hovered-card">
+              <div class="card">
+                <img
+                  src="movies/iron man.jpg"
+                  alt="iron Man"
+                  class="card-img-top square-img"
+                />
+                <div class="card-body">
+                  <div class="card-title">Iron Man 3</div>
+                  <a href="error.html" class="btn btn-primary">Watch</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 hovered-card">
+              <div class="card">
+                <img
+                  src="movies/dilan.jpg"
+                  alt="Dilan 1990"
+                  class="card-img-top square-img"
+                />
+                <div class="card-body">
+                  <div class="card-title">Dilan 1990</div>
+                  <a href="error.html" class="btn btn-primary">Watch</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 hovered-card">
+              <div class="card">
+                <img
+                  src="movies/spongebob.jpg"
+                  alt="Spongebob"
+                  class="card-img-top square-img"
+                />
+                <div class="card-body">
+                  <div class="card-title">Spongebob Squarepants</div>
+                  <a href="error.html" class="btn btn-primary">Watch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="genre" class="s-2 scroll-mt">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="text py-3 text-light">
+            <h2 class="text-center display-6">Pilih Genre</h2>
+            <p class="text-center mt-3">
+              Berikut ini adalah genre film yang tersedia.
+            </p>
+          </div>
+          <div class="row mt-5 justify-content-center">
+            <div class="col-md-6 hovered-card">
+              <a href="error.html" class="t-none">
+                <div class="card d-flex flex-row align-items-center w-100">
+                  <div class="card-body">
+                    <div class="card-title">Action</div>
+                    <div class="card-text">Genre yang berisikan kisah aksi</div>
+                  </div>
+                  <img src="images/next.png" alt="" class="w-10 ms-auto mx-4" />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 hovered-card">
+              <a href="error.html" class="t-none">
+                <div class="card d-flex flex-row align-items-center w-100">
+                  <div class="card-body">
+                    <div class="card-title">Romance</div>
+                    <div class="card-text">
+                      Genre yang berisikan kisah romansa
+                    </div>
+                  </div>
+                  <img src="images/next.png" alt="" class="w-10 ms-auto mx-4" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service -->
+    <!--section service-->
+    <div class="container-fluid main-color serv" style="padding-block: 70px">
+      <div class="container">
+        <h2 class="text-light text-center display-6 mb-5">Pelayanan Kami</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="card-serv hovered-card-gold">
+                <div class="d-flex justify-content-center">
+                <div
+                    class="icon-service d-flex justify-content-center align-items-center"
+                >
+                    <img src="https://cdn-icons-png.flaticon.com/128/3616/3616781.png" alt=" " class="w-50">
+                </div>
+                </div>
+                <div class="mt-3 text-white text-center">
+                <h5>Delivery</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                    iste quos, accusamus vel, delectus fuga similique cumque quas
+                    totam veritatis saepe hic neque tenetur nam facere amet! Fuga,
+                    explicabo rem?
+                </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-serv hovered-card-gold">
+                <div class="d-flex justify-content-center">
+                <div
+                    class="icon-service d-flex justify-content-center align-items-center"
+                >
+                    <img src="https://cdn-icons-png.flaticon.com/128/12864/12864283.png" alt=" " class="w-50">
+                    
+                </div>
+                </div>
+                <div class="mt-3 text-white text-center">
+                <h5>Delivery</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                    iste quos, accusamus vel, delectus fuga similique cumque quas
+                    totam veritatis saepe hic neque tenetur nam facere amet! Fuga,
+                    explicabo rem?
+                </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-serv hovered-card-gold">
+                <div class="d-flex justify-content-center">
+                <div
+                    class="icon-service d-flex justify-content-center align-items-center"
+                >
+                    <img src="https://cdn-icons-png.flaticon.com/128/6941/6941697.png" alt="" class="w-50">
+                </div>
+                </div>
+                <div class="mt-3 text-white text-center">
+                <h5>Delivery</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                    iste quos, accusamus vel, delectus fuga similique cumque quas
+                    totam veritatis saepe hic neque tenetur nam facere amet! Fuga,
+                    explicabo rem?
+                </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="">
+      <div class="container-fluid bg-footer text-light py-3">
+        <div class="container text-center">
+          <small>&copy; 2026</small> CGV
+          <small>Cinemas. All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
