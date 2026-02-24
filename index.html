@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body class="font">
+    <!-- Navbar -->
     <nav
       class="navbar navbar-expand-lg bg-white shadow-lg fixed-top navbar-dark"
     >
@@ -47,6 +50,7 @@
                 <li><a class="dropdown-item" href="#movies">Movies</a></li>
                 <li><a class="dropdown-item" href="#genre">Genre</a></li>
                 <li><a class="dropdown-item" href="#servis">Services</a></li>
+                <li><a class="dropdown-item" href="#produk">Terlaris</a></li>
               </ul>
             </li>
             <a class="nav-link" href="error.html">Cinemas</a>
@@ -70,6 +74,7 @@
       </div>
     </div>
 
+    <!-- Section movies -->
     <section id="movies" class="s-1 scroll-mt mb-5">
       <div class="container-fluid py-5">
         <div class="container text-light">
@@ -137,7 +142,8 @@
       </div>
     </section>
 
-    <section id="genre" class="s-2 scroll-mt">
+    <!-- Section genre -->
+    <section id="genre" class="s-2 scroll-mt py-4">
       <div class="container-fluid">
         <div class="container">
           <div class="text py-3 text-light">
@@ -176,8 +182,7 @@
       </div>
     </section>
 
-    <!-- service -->
-    <!--section service-->
+    <!-- Section service-->
     <div class="container-fluid main-color serv" style="padding-block: 70px" id="servis">
       <div class="container">
         <h2 class="text-light text-center display-6 mb-5">Pelayanan Kami</h2>
@@ -246,14 +251,260 @@
         </div>
       </div>
     </div>
-    <footer class="">
-      <div class="container-fluid bg-footer text-light py-3">
-        <div class="container text-center">
-          <small>&copy; 2026</small> CGV
-          <small>Cinemas. All rights reserved.</small>
+
+    <!-- Section produk -->
+    <div class="s-4 container-fluid py-5" id="produk">
+    <div class="container">
+      <h2 class="text-light text-center display-6 mb-5">Terlaris</h2>
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <img src="movies/demon.jpg" alt="" class="card-img-top square-img">
+            <div class="card-body text-start">
+              <h5 class="card-title text-warning">Demon Slayer</h5>
+              <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <img src="movies/jjk.jpg" alt="" class="card-img-top square-img">
+            <div class="card-body text-start">
+              <h5 class="card-title text-warning">Jujutsu Kaisen</h5>
+              <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <img src="movies/adit.jpg" alt="" class="card-img-top square-img">
+            <div class="card-body text-start">
+              <h5 class="card-title text-warning">Adit Sopo Jarwo</h5>
+              <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <img src="movies/boboiboy.jpg" alt="" class="card-img-top square-img">
+            <div class="card-body text-start">
+              <h5 class="card-title text-warning">Boboiboy</h5>
+              <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+    </div>
+
+    <!-- Section testimony -->
+    <div class="container-fluid py-5 testimony">
+      <div class="container">
+        <h2 class="text-center text-light display-6 mb-2">Apa Kata Customer</h2>
+        <p class="text-center mb-5" style="color: rgba(255, 255, 255, 0.6); font-size: 0.95rem;">Kepuasan pelanggan adalah prioritas kami</p>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon">"</div>
+              <h5>Film nya menarik dan berkualitas tinggi</h5>
+              <div class="author">- Mark Zuckerberg</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam, sunt nulla doloremque molestiae.</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon">"</div>
+              <h5>Tempatnya nyaman dan bersih</h5>
+              <div class="author">- Elon Musk</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam, sunt nulla doloremque molestiae.</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon">"</div>
+              <h5>Staffnya ramah dan profesional</h5>
+              <div class="author">- Windah Basudara</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam, sunt nulla doloremque molestiae.</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon">"</div>
+              <h5>Suasana yang nyaman dan menyenangkan</h5>
+              <div class="author">- MiawAug</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam, sunt nulla doloremque molestiae.</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon">"</div>
+              <h5>Makanannya enak dan harganya terjangkau</h5>
+              <div class="author">- Lutfi Halimawan</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam, sunt nulla doloremque molestiae.</p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="testimony-card">
+              <div class="quote-icon">"</div>
+              <h5>Harga yang terjangkau</h5>
+              <div class="author">- Muhammad Naufal</div>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quibusdam, sunt nulla doloremque molestiae.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section reservasi -->
+     <div class="container-fluid py-5">
+      <div class="container">
+        <h2 class="text-center display-6 text-light mb-2">Reservasi Tiket</h2>
+        <p class="text-center mb-5" style="color: rgba(255, 255, 255, 0.6); font-size: 0.95rem;">Silakan isi form di bawah ini untuk memesan tiket Anda</p>
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-light">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap Anda">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Nomor Telepon</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Masukkan nomor telepon Anda">
+              </div>
+              <button type="submit" class="btn btn-red w-100">Pesan Tiket</button>
+            </form>
+          </div>
+        </div>
+      </div>
+     </div>
+    
+    <!-- Section subscribe -->
+    <div class="container-fluid py-5 footer">
+      <div class="container">
+        <h5 class="text-center text-light display-6 py-5">Temui Kami</h5>
+        <div class="justify-content-center d-flex mb-5" style="gap: 70px;">
+          <a href="https://facebook.com/username" target="_blank" class="social-icon">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://instagram.com/username" target="_blank" class="social-icon">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://twitter.com/username" target="_blank" class="social-icon">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+
+        <h5 class="text-center text-light display-6 mb-1">Subscribe</h5>
+        <p class="text-center mb-3" style="color: rgba(255, 255, 255, 0.6); font-size: 0.95rem;">Dapatkan update terbaru dari kami</p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="input-group mb-5">
+              <input type="email" class="form-control" placeholder="Ketikan Email">
+              <button class="btn btn-red text-light" type="button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section footer -->
+    <footer class="bg-dark text-light py-5" id="footer">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5 class="fw-bold mb-3">CGV Cinemas</h5>
+          <p class="text-light small">Tempat buat menonton film yang menyenangkan</p>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5 class="fw-bold mb-3">Navigasi</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">Beranda</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Produk</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Promo</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Reservasi</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="fw-bold mb-3">Kontak</h5>
+          <ul class="list-unstyled text-light small">
+            <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Jl. Raya Cinemas No. 123, Jakarta</li>
+            <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i> +62 812 3456 7890</li>
+            <li class="mb-1"><i class="bi bi-envelope-fill me-2"></i> info@cinemas.com</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-secondary mt-4 mb-3">
+      <p class="text-center text-light small mb-0">
+        &copy; 2026 Cinemas. All rights reserved.
+      </p>
+    </div>
     </footer>
+
     <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>
