@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinemas - Pilihlah Fim Favoritmu.</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+
+<body class="font" style="margin: 0;">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-lg fixed-top navbar-dark">
+        <div class="container-fluid mx-5 my-2">
+            <a class="navbar-brand" href="#">CGV <small>Cinemas</small></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Movies</a>
+                    <a class="nav-link active" href="#">Cinemas</a>
+                    <a class="nav-link" href="404.html">Promotion</a>
+                    <a class="nav-link" href="404.html">News</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section banner -->
+    <div class="c-banner container-fluid d-flex py-5">
+        <div class="container">
+            <div class="container text-center pt-5">
+                <h1 class="text-light display-2 fb mb-0" style="padding-top: 90px;">Cinemas Selection</h1>
+                <h6 class="text-light ms-2 mb-4">
+                    Pilihlah tontonan kesukaanmu! Tonton hingga puas.
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- section kategori -->
+    <div class="container-fluid py-5" id="kategori">
+        <div class="container">
+            <div class="row">
+                <!-- kategori -->
+                <div class="col-md-4 col-lg-3 mb-5">
+                    <h4 class="text-light mb-4">Pilihan Genre:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item pointer active" aria-current="true">
+                            Action
+                        </li>
+                        <li class="list-group-item pointer">Romance</li>
+                        <li class="list-group-item pointer">Fantasy</li>
+                        <li class="list-group-item pointer">Comedy</li>
+                        <li class="list-group-item pointer">Horror</li>
+                    </ul>
+                </div>
+
+                <!-- produk -->
+                <div class="col-md-8 col-lg-9">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h4 class="text-start text-light mb-4">Movies:</h4>
+                        <small class="text-end text-light">Genre Action</small>
+                    </div>
+                    <div class="row">
+                        <!-- CARD 1 -->
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                            <div class="card hovered-card">
+                                <a href="movies/spiderman.jpg" data-lightbox="spiderman" data-title="Spiderman"
+                                    class="text-decoration-none">
+                                    <img src="movies/spiderman.jpg" class="card-img-top portrait"
+                                        alt="Spiderman No Way Home" />
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-warning">
+                                        Spiderman
+                                    </h5>
+                                    <p class="card-text text-light text-center mb-3">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit.
+                                    </p>
+                                    <div class="dropdown text-center">
+                                        <button class="btn btn-red dropdown-toggle w-100" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Selengkapnya
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Lihat</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Beli</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CARD 2 -->
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                            <div class="card hovered-card">
+                                <a href="movies/taxi.jpg" data-lightbox="taxi" data-title="Taxi"
+                                    class="text-decoration-none">
+                                    <img src="movies/taxi.jpg" class="card-img-top portrait"
+                                        alt="Spiderman No Way Home" />
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-warning">
+                                        Taxi Driver
+                                    </h5>
+                                    <p class="card-text text-light text-center mb-3">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit.
+                                    </p>
+                                    <div class="dropdown text-center">
+                                        <button class="btn btn-red dropdown-toggle w-100" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Selengkapnya
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Lihat</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Beli</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CARD 3 -->
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                            <div class="card hovered-card">
+                                <a href="movies/mouse.jpg" data-lightbox="mouse" data-title="Mouse"
+                                    class="text-decoration-none">
+                                    <img src="movies/mouse.jpg" class="card-img-top portrait"
+                                        alt="Spiderman No Way Home" />
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-warning">
+                                        Mouse
+                                    </h5>
+                                    <p class="card-text text-light text-center mb-3">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit.
+                                    </p>
+                                    <div class="dropdown text-center">
+                                        <button class="btn btn-red dropdown-toggle w-100" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Selengkapnya
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Lihat</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Beli</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CARD 4 -->
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                            <div class="card hovered-card">
+                                <a href="movies/iron man.jpg" data-lightbox="ironman" data-title="Ironman"
+                                    class="text-decoration-none">
+                                    <img src="movies/iron man.jpg" class="card-img-top portrait"
+                                        alt="Spiderman No Way Home" />
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-warning">
+                                        Iron Man
+                                    </h5>
+                                    <p class="card-text text-light text-center mb-3">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit.
+                                    </p>
+                                    <div class="dropdown text-center">
+                                        <button class="btn btn-red dropdown-toggle w-100" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Selengkapnya
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Lihat</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Beli</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CARD 5 -->
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                            <div class="card hovered-card">
+                                <a href="movies/spiderman2.jpg" data-lightbox="spiderman2" data-title="Spiderman2"
+                                    class="text-decoration-none">
+                                    <img src="movies/spiderman2.jpg" class="card-img-top portrait"
+                                        alt="Spiderman No Way Home" />
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-warning">
+                                        Spiderman 2
+                                    </h5>
+                                    <p class="card-text text-light text-center mb-3">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit.
+                                    </p>
+                                    <div class="dropdown text-center">
+                                        <button class="btn btn-red dropdown-toggle w-100" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Selengkapnya
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Lihat</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Beli</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CARD 6 -->
+                        <div class="col-lg-4 col-sm-6 mb-3">
+                            <div class="card hovered-card">
+                                <a href="movies/vin.jpg" data-lightbox="vincenzo" data-title="Vincenzo"
+                                    class="text-decoration-none">
+                                    <img src="movies/vin.jpg" class="card-img-top portrait"
+                                        alt="Spiderman No Way Home" />
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-warning">
+                                        Vincenzo
+                                    </h5>
+                                    <p class="card-text text-light text-center mb-3">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                                        elit.
+                                    </p>
+                                    <div class="dropdown text-center">
+                                        <button class="btn btn-red dropdown-toggle w-100" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Selengkapnya
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Lihat</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.html" class="dropdown-item">Beli</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pagination -->
+                        <nav aria-label="Page navigation example" class="d-flex justify-content-center mb-5">
+                            <ul class="pagination text-center justofy-content-center mt-4">
+                                <li class="page-item">
+                                    <a href="404.html" class="page-link">Previous</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="404.html" class="page-link">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="404.html" class="page-link">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="404.html" class="page-link">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="404.html" class="page-link">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Section subscribe -->
+    <div class="container-fluid pb-5 footer">
+        <div class="container">
+            <h5 class="text-center text-light display-6 py-5">Temui Kami</h5>
+            <div class="justify-content-center d-flex mb-5" style="gap: 70px;">
+                <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+
+            <h5 class="text-center text-light display-6 mb-1">Subscribe</h5>
+            <p class="text-center mb-3" style="color: rgba(255, 255, 255, 0.6); font-size: 0.95rem;">Dapatkan update
+                terbaru dari kami</p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group mb-5">
+                        <input type="email" class="form-control" placeholder="Ketikan Email">
+                        <button class="btn btn-red text-light" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section footer -->
+    <footer class="bg-dark text-light py-5" id="footer">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold mb-3">CGV Cinemas</h5>
+                    <p class="text-light small">Tempat buat menonton film yang menyenangkan</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold mb-3">Navigasi</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-decoration-none">Beranda</a></li>
+                        <li><a href="index.html#produk" class="text-light text-decoration-none">Produk</a></li>
+                        <li><a href="index.html#movies" class="text-light text-decoration-none">Promo</a></li>
+                        <li><a href="index.html#reservasi" class="text-light text-decoration-none">Reservasi</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Kontak</h5>
+                    <ul class="list-unstyled text-light small">
+                        <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Jl. Raya Cinemas No. 123, Jakarta
+                        </li>
+                        <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i> +62 812 3456 7890</li>
+                        <li class="mb-1"><i class="bi bi-envelope-fill me-2"></i> info@cinemas.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary mt-4 mb-3">
+            <p class="text-center text-light small mb-0">
+                &copy; 2026 Cinemas. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
