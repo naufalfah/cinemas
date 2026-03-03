@@ -232,3 +232,39 @@ body {
     transform: scale(1.2);
 }
 
+
+
+
+
+/* Cinemas */
+.c-banner {
+    background: linear-gradient(rgba(133, 0, 0, 0.808), rgb(0, 0, 0)), url("../images/bg-cinemas.png");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+#kategori .active {
+    background-color: rgb(180, 7, 7);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.portrait {
+    aspect-ratio: 3 / 4;
+}
+
+#kategori .hovered-card {
+    transition: .3s;
+}
+
+#kategori .hovered-card:hover {
+    transform: translateY(-6px);
+}
+
+#kategori .card {
+    background-color: rgb(92, 11, 11);
+    border: 1px solid rgb(148, 12, 12);
+}
