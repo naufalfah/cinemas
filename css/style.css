@@ -10,7 +10,11 @@ body {
 }
 
 .bg-white {
-    background-color: rgba(221, 10, 10, 0.3) !important;
+    background-color: rgba(0, 0, 0, 0.575) !important;
+}
+
+.bg-utama {
+    background-color: rgba(92, 15, 15, 0.801) !important;
 }
 
 .bg-red {
@@ -77,6 +81,10 @@ body {
 
 .w-10 {
     width: 10%;
+}
+
+.w-5 {
+    width: 5%;
 }
 
 /* hovered card */
@@ -218,7 +226,7 @@ body {
 
 /* footer */
 .footer {
-    background: linear-gradient(rgb(0, 0, 0), rgb(48, 48, 48));
+    background: rgb(27, 26, 26);
 }
 
 .footer .social-icon {
@@ -267,4 +275,17 @@ body {
 #kategori .card {
     background-color: rgb(92, 11, 11);
     border: 1px solid rgb(148, 12, 12);
+}
+
+
+/* promo */
+.p-banner {
+    background: linear-gradient(rgba(133, 0, 0, 0.808), rgb(0, 0, 0)), url("../images/bg-cinemas.png");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+#bundle .card {
+    background: linear-gradient(rgb(126, 14, 14), 70%, rgb(114, 12, 12));
 }
